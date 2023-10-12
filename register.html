@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8">
+    <meta name="viewport" content="content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+      <div class="container">
+         <header class="header">
+              <h1 id="title" class="text-center">Sign up</h1>
+              </header>
+            <form id="survey-form">
+             <div class="form-group">
+                 <label id="name-label" for="name">Name 
+                  </label>
+                 <input type="text" id="name" class="form-control" placeholder="Enter your name" name="name" required=""/>
+                </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email
+          </label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your Email" name="email" required=""/>
+      </div>
+      <div class="form-group">
+        <label id="Password" for="password">Password
+          </label>
+          <input type="password" id="email" class="form-control" placeholder="Password" name="password" required=""/>
+      </div>
+      <div class="form-group">
+        <label id="Password" for="password">Confirm Password
+          </label>
+          <input type="password" id="email" class="form-control" placeholder="Password" name="password" required=""/>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Age
+          </label>
+          <input type="number" id="number" class="form-control"  min="10" max="99"  placeholder="Age" name="age"/>
+      </div>
+      <div class="form-group">
+        <p>Year Level</p>
+        <select id="dropdown" class="form-control" name="role" required="" />
+        <option disabled=""hidden selected="" value="">Select Year Level</option>
+        <option value="first-year">First Year</option>
+        <option value="second-year">Second Year</option>
+        <option value="third-year">Third Year</option>
+        <option value="fourth-year">Fourth Year</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>Gender</p>
+        <label><input type="radio" class="input-radio" name="user-recommend" value="definitely" checked=""/>Male
+        </label>
+        <label>
+          <input type="radio" class="input-radio" name="user-recommend" value="not-sure">Female
+        </label>
+      </div>
+      <div class="skills">
+            <p>What are your skills? (Check all that apply)</p>
+        <label><input type="checkbox" class="input-checkbox" >Computer Architechture</label>
+         <label><input type="checkbox"class="input-checkbox">Computer Networking</label>
+         <label><input type="checkbox"class="input-checkbox">Computer Programming</label>
+         <label><input type="checkbox"class="input-checkbox">Database Management</label>
+         <label><input type="checkbox"class="input-checkbox">Web Development</label>
+    </div>
+      <div class="form-group">
+       <label for="bio"><span>Other skill not mentioned from above.
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your other skills"></textarea></span>
+        </label> 
+        
+        <button type="submit" class="btn">Sign Up</button>
+
+        <div class="back-login">
+            <a href="login.html"><br>Back to Login</a>
+        </div>
+          </div>
+     </form>
+  </div>
+  </body>
+</html>
