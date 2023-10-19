@@ -171,12 +171,12 @@ textarea {
   min-height: 2em;
 }
 textarea::placeholder{
-  color: #ebebeb;
+  color: #fff;
   
 }
 
 .container a{
-    color: #ebebeb;
+    color: #fff;
     box-align:right;
 
 }
