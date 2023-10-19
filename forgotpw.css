@@ -17,6 +17,7 @@ body{
     background-position: center;
 }
 
+
 h6{
     font-size: 1.1rem;
     
@@ -87,3 +88,6 @@ h6{
 .form-group input::placeholder{
     color: #fff;
 }
+
+
+    
