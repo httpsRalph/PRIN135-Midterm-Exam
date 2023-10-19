@@ -5,7 +5,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.4;
   color: var(--color-white);
   margin: 0;
@@ -24,8 +24,10 @@ body{
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.2;
+  color:black;
+  opacity: 70%;
 }
 
 p {
@@ -55,7 +57,9 @@ textarea {
 }
 
 button {
-    width: 100%;
+    position: relative;
+    display: inline-block;
+    width: 45%;
     height: 45px;
     background: #fff;
     border: none;
@@ -69,7 +73,7 @@ button {
 }
 
 button:hover{
-    background: transparent;
+    background: rgba(0, 0, 0, .5);
     color: #fff;
 }
 
@@ -115,17 +119,6 @@ button:hover{
 
 /* form */
 
-form {
-  background: var(--color-darkblue-alpha);
-  padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
-}
-
-@media (min-width: 480px) {
-  form {
-    padding: 2.5rem;
-  }
-}
 
 .form-group {
   margin: 0 auto 1.25rem auto;
@@ -167,18 +160,22 @@ form {
 }
 
 .submit-button {
-  display: block;
+  justify-content: flex-end;
   width: 100%;
   padding: 0.75rem;
-  background: var(--color-green);
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
+  
 }
 textarea {
   background-color:white;
   border: 1px solid #0a0a23;
   color: #495057;
+  border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 textarea{
   margin: 10px 0 0 0;
@@ -186,13 +183,9 @@ textarea{
   min-height: 2em;
 }
 
-{
-    color: #fff;
-    
-}
-
 .container a{
-    color: #fff;
+    color: #ebebeb;
+    box-align:right;
 
 }
 
