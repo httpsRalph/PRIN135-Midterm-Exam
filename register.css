@@ -26,8 +26,6 @@ body{
 h1 {
   font-weight: 800;
   line-height: 1.2;
-  color:black;
-  opacity: 70%;
 }
 
 p {
@@ -70,10 +68,11 @@ button {
     font-size: 16px;
     color: #333;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 button:hover{
-    background: rgba(0, 0, 0, .5);
+    background: rgba(105, 105, 105, .5);
     color: #fff;
 }
 
@@ -190,6 +189,6 @@ textarea{
 }
 
 .container a:hover{
-    color: black;
+    color: gray;
     text-decoration: underline;
 }
