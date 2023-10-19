@@ -83,7 +83,7 @@ body{
 }
 
 .remember-forgot a:hover{
-    color: black;
+    color: gray;
     text-decoration: underline;
 }
 
@@ -102,7 +102,7 @@ body{
 }
 
 .wrapper .btn:hover{
-    background: rgba(0,0,0, .5);
+    background: rgba(105,105,105, .5);
     color: #fff;
     
 }
@@ -122,7 +122,7 @@ body{
 
 .register-link p a:hover{
     text-decoration: underline;
-    color: black;
+    color: gray;
 }
 
 
